@@ -1,0 +1,53 @@
+header {
+    position: relative;
+    height: 100vh;
+}
+
+body {
+    background-image: url(bg.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.corner {
+    position: absolute;
+    margin: 0;
+    padding: 20px;
+}
+
+#teken {
+    color: aliceblue;
+    text-decoration: none;
+    top: 0;
+    left: 0;
+    transform-origin: top left;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+#blok {
+    color: aliceblue;
+    text-decoration: none;
+    top: 0;
+    right: 0;
+    transform-origin: top right;
+}
+
+#mc {
+    color: aliceblue;
+    text-decoration: none;
+    bottom: 0;
+    left: 0;
+    transform-origin: bottom left;
+}
+
+#roblx {
+    color: aliceblue;
+    text-decoration: none;
+    bottom: 0;
+    right: 0;
+    transform-origin: bottom right;
+}
